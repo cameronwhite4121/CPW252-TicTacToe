@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         // Initializers
         val turnOrder:  TextView = findViewById(R.id.textView)
-        var currentPlayer: Char = 'X'
+        var currentPlayer = 'X'
         turnOrder.text = "Player ${currentPlayer}'s turn"
 
         // Called every VALID button click
